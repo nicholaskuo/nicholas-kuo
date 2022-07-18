@@ -28,7 +28,7 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'PostgreSQL/MySQL/Oracle/SQL',
     competency: 4,
     category: ['Web Development', 'Databases', 'Languages'],
   },
@@ -39,13 +39,28 @@ const skills = [
   },
   {
     title: 'Express.JS',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Git',
     competency: 3,
     category: ['Tools'],
+  },
+  {
+    title: 'C',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'OCaml',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Figma',
+    competency: 4,
+    category: ['Web Development'],
   },
   {
     title: 'Google Cloud Compute',
