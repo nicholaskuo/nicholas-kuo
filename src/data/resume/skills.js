@@ -93,9 +93,9 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Pandas',
+    title: 'Java',
     competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Languages'],
   },
   {
     title: 'Matplotlib',
@@ -103,9 +103,9 @@ const skills = [
     category: ['Data Engineering', 'Data Science', 'Python'],
   },
   {
-    title: 'Scikit-Learn',
-    competency: 4,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    title: 'SQL',
+    competency: 5,
+    category: ['Languages', 'Databases', 'Data Engineering', 'Data Science'],
   },
   {
     title: 'Apache Spark',
