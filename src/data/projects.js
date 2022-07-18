@@ -1,47 +1,31 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'NBA Betting Simulator Website',
+    subtitle: '1st Place in Databases Course',
+    link: 'https://github.com/nicholaskuo/NBABetSimulator',
+    image: '/images/projects/nba.jpg',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Web app that visualizes profit earned using popular betting strategies based on 2012-2019 NBA results. '
+      + 'Tech Stack: React, Node.js, Express, AWS RDS for MySQL, DynamoDB',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Computer Vision Fitness Trainer App',
+    subtitle: '2nd Place PennApps 2021 Hackathon',
+    link: 'https://github.com/nicholaskuo/Mobile_App_Excercise_Form_Detection/tree/main',
+    image: '/images/projects/jump.jpg',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Built a computer vision web app that records a user’s exercise & gives form correction using Twilio’s chatbot API.'
+      + 'Tech Stack: React, Node.js, Express, Python (OpenCV, NumPy), AWS RDS for MySQL',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'E-Commerce Machine Learning & Big Data',
+    subtitle: 'Understanding Changing Trends in E-Commerce Purchases',
+    link: 'https://github.com/nicholaskuo/E-CommerceBigDataAnalysis/blob/main/ECommerceDataPipeline.ipynb',
+    image: '/images/projects/ecommerce.jpg',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Trained Random Forest, Naïve Bayes, & neural nets in Python on 16 million e-commerce transactions with Apache '
+      + 'MXNet, NLP sentiment analysis, Apache Spark SQL, AWS Elastic MapReduce to predict online consumer trends. ',
   },
 ];
 
