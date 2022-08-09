@@ -13,7 +13,7 @@ const Index = () => (
           <h2 data-testid="heading"><Link to="/">About Nicholas Kuo&apos;s Site</Link></h2>
           <p>
             My name is Nicholas Kuo, and I have programmed this static
-            website using React.js (with React Bootstrap, HTML/CSS, JavaScript).
+            website using React.js with React Bootstrap, HTML/CSS, JavaScript.
           </p>
         </div>
       </header>
