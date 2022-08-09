@@ -13,11 +13,11 @@ const Index = () => (
           <h2 data-testid="heading"><Link to="/">About Nicholas Kuo's Site</Link></h2>
           <p>
             Hello! This is my personal site. My name is Nicholas Kuo, and I have programmed this static
-            website using React.js (with React Bootstrap, HTML, CSS, and JavaScript). Hope you enjoy!
+            website using React.js (with React Bootstrap, HTML/CSS, and JavaScript). 
           </p>
         </div>
       </header>
-      <p> Welcome to my website's landing page. Please feel free to read more <Link to="/about">about me</Link>,
+      <p> Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
