@@ -12,18 +12,18 @@ const Index = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
           <p>
-            A statically-generated,
-            react application written with React in Javascript.
+            Welcome to my personal site. My name is Nicholas Kuo, and I have programmed this static
+            website using React.js (with React Bootstrap, HTML, CSS, and JavaScript). Hope you enjoy.
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+      <p> Welcome to my website's landing page. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/nicholaskuo/nicholas-kuo">here</a>.</p>
+      <p> My source code is available at <a href="https://github.com/nicholaskuo/nicholas-kuo">here</a>.</p>
     </article>
   </Main>
 );
