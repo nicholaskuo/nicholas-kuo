@@ -10,10 +10,10 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About Nicholas Kuo's Site</Link></h2>
+          <h2 data-testid="heading"><Link to="/">About Nicholas Kuo&apos;s Site</Link></h2>
           <p>
-            Hello! This is my personal site. My name is Nicholas Kuo, and I have programmed this static
-            website using React.js (with React Bootstrap, HTML/CSS, and JavaScript). 
+            Hello! My name is Nicholas Kuo, and I have programmed this static
+            website using React.js (with React Bootstrap, HTML/CSS, JavaScript). 
           </p>
         </div>
       </header>
